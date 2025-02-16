@@ -1,10 +1,10 @@
-import WelcomeMessage from './WelcomeMessage'
-import './App.css'
+import WelcomeMessage from './WelcomeMessage.jsx'
+
 
 function App() {
         <>
-          <WelcomeMessage/>
-          
+          <WelcomeMessage />
+
         </>
 }
 
