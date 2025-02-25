@@ -1,11 +1,11 @@
 import ReactDOM from 'react-dom/client'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './About.jsx'
-import Contact from './Contact.jsx'
-import About from './About.jsx'
-import Services from './Services.jsx'
-import NavBar from './NavBar.jsx'
+import Home from './components/About.jsx'
+import Contact from './components/Contact.jsx'
+import About from './components/About.jsx'
+import Services from './components/Services.jsx'
+import NavBar from './components/NavBar.jsx'
 
 const App = () => {
 
