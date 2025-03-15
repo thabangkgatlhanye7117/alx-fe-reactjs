@@ -24,9 +24,9 @@
       <div>
       <form onSubmit={handleSubmit}>
           <div>
-            <input id='userName' type='text' name='' value={userData.username} onChange = {handleChange} required/>
-            <input id='passWord' type='password' name='' value={userData.password} onChange = {handleChange } required />
-            <input type='email' name='' value={userData.email} onChange = {handleChange} required/>
+            <input id='userName' type='text' name='username' value={username} onChange = {handleChange} required/>
+            <input id='passWord' type='password' name='password' value={password} onChange = {handleChange } required />
+            <input id='email' type='email' name='email' value={email} onChange = {handleChange} required/>
           </div>
           <button onclick = {handleSubmit}>Submit</button>
 
