@@ -17,6 +17,16 @@
       e.preventDefault();
       console.log(userData);
     }
+
+    if(!username === ''){
+        
+    };
+    if(!password === ''){
+
+    }
+    if(!email === ''){
+
+    }
     }
 
 
