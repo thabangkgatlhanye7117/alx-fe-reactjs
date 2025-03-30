@@ -1,13 +1,14 @@
-
+import HomePage from "./components/HomePage";
 
 function App() {
  
 
   return (
     <>
-      <p class='text-blue-500'>Test Tailwind</p>
+    <HomePage/>
+      
     </>
-  )
+  );
 }
 
 export default App
